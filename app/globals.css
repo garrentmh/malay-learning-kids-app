@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, :root { height: 100%; }
+body { @apply bg-gradient-to-b from-yellow-200 via-amber-200 to-yellow-100; }
+.perspective-1000 { perspective: 1000px; }
